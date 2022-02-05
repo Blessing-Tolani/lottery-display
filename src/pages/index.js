@@ -1,4 +1,4 @@
-import App from "./App";
+import Main from "./main";
 
 import { Provider } from "react-redux";
 import store from "../app/store";
@@ -6,7 +6,7 @@ import store from "../app/store";
 const Home = () => {
   return (
     <Provider store={store}>
-      <App />
+      <Main />
     </Provider>
   );
 };

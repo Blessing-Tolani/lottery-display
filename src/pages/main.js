@@ -12,7 +12,7 @@ import RegisterContainer from "../components/Container/RegisterContainer";
 // import Login from '.../components/user/Login';
 // import Homepage from '.../components/user/Homepage';
 
-const App = () => {
+const Main = () => {
   return (
     <Router>
       <Routes>
@@ -26,4 +26,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default Main;

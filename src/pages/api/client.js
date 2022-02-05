@@ -1,18 +1,10 @@
 //A fetch wrapper
-const cors = require("cors");
-const corsOptions = {
-  origin: "*",
-  credentials: true, //access-control-allow-credentials:true
-  optionSuccessStatus: 200,
-};
-
-app.use(cors(corsOptions));
 
 export async function client(endpoint, { body, ...customConfig } = {}) {
   const headers = {
-    Accept: "application/json",
+    
     "Content-Type": "application/json",
-    Origin: "http://localhost:3000",
+    
   };
 
   const config = {
